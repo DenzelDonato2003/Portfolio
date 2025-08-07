@@ -50,10 +50,7 @@ function App() {
         <div>
           <h2 style={{ color: '#ffe100' }}>ABOUT ME</h2>
         </div>
-        <p
-          className={`profile-description ${isAboutVisible ? 'animate' : ''}`}
-          style={{ marginLeft: '310px', marginRight: '310px', textAlign: 'justify' }}
-        >
+        <p className={`profile-description ${isAboutVisible ? 'animate' : ''}`}>
           I’m a Computer Engineering graduate with a passion for solving real-world problems through technology. With a solid foundation in both hardware and software, I’m eager to apply my skills to innovative projects that push my boundaries. I’m seeking opportunities to leverage my expertise in software engineering to create meaningful, impactful solutions.
         </p>
         <div className="skills-table">

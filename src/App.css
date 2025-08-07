@@ -317,7 +317,8 @@ body {
   background-color: rgba(255, 255, 255, 0.1); /* semi-transparent */
   padding: 20px 30px;
   border-radius: 20px;
-  width: 250px;
+  width: 100%;
+  max-width: 300px;
   backdrop-filter: blur(6px); /* optional for glassy effect */
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -379,6 +380,10 @@ body {
 
 /* Profile Description */
 .profile-description {
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 20px;
   transform: translateY(40px); /* Start state for animation */
 }
 
@@ -467,6 +472,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s, box-shadow 0.3s;
+  flex-direction: column;
+  width: 100%;
+  max-width: 280px;
 }
 
 .contact-card:hover {
@@ -491,5 +499,50 @@ body {
 
 .contact-text:hover {
   color: #ffe100;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .experience-details h3,
+  .experience-details h4,
+  .experience-date,
+  .experience-description {
+    text-align: center;
+  }
 }
 

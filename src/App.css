@@ -615,65 +615,13 @@ body {
 
   /* Adjust profile ring and image sizes for mobile */
   .profile-ring {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
 
   .profile-image {
-    width: 180px;
-    height: 180px;
-  }
-
-  /* Mobile layout - stack vertically with image on top */
-@media (max-width: 768px) {
-  .hero-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  /* Ensure image comes first in mobile view */
-  .hero-image {
-    order: 1; /* Image appears first */
-  }
-
-  .hero-text {
-    order: 2; /* Text content appears second */
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .hero-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-  }
-
-  .subtitle {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-  }
-
-  .btn {
-    font-size: 1rem;
-    padding: 15px 25px;
-    margin-top: 10px;
-    display: inline-block;
-  }
-
-  /* Adjust profile ring and image sizes for mobile */
-  .profile-ring {
-    width: 80px;
-    height: 80px;
-  }
-
-  .profile-image {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
   }
 
   .rotating-border {
@@ -681,5 +629,4 @@ body {
     height: 100%;
     border: 3px solid transparent; /* Thinner border for mobile */
   }
-}
 }

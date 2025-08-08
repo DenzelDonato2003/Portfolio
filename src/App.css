@@ -581,7 +581,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    max-width: 500px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
   }
@@ -616,13 +616,13 @@ body {
 
   /* Adjust profile ring and image sizes for mobile */
   .profile-ring {
-    width: 110px;
-    height: 110px;
+    width: 160px;
+    height: 160px;
   }
 
   .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
   }
 
   .rotating-border {

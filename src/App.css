@@ -615,18 +615,17 @@ body {
 
   /* Adjust profile ring and image sizes for mobile */
   .profile-ring {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
   }
 
   .profile-image {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
   }
 
   .rotating-border {
     width: 100%;
     height: 100%;
-    border: 3px solid transparent; /* Thinner border for mobile */
   }
 }

@@ -35,6 +35,7 @@ function App() {
             <h1>Hello, I am <span className="highlight"><br />Denzel Donato!</span></h1>
             <p className="subtitle">Computer Engineer | Aspiring Software Engineer</p>
             <a className="btn" href="#contact">WANT TO HIRE ME?</a>
+        <h2 style={{ opacity: 0, fontSize: 19}}>END</h2>
           </div>
             <div className="hero-image">
               <div className="profile-ring">

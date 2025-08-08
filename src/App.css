@@ -573,6 +573,7 @@ body {
 }
 
 /* Mobile layout - stack vertically with image on top */
+/* Mobile layout - stack vertically with image on top */
 @media (max-width: 768px) {
   .hero-flex {
     display: flex;
@@ -615,17 +616,18 @@ body {
 
   /* Adjust profile ring and image sizes for mobile */
   .profile-ring {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
 
   .profile-image {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
   }
 
   .rotating-border {
     width: 100%;
     height: 100%;
+    border: 3px solid transparent; /* Thinner border for mobile */
   }
 }
